@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<title>My Carousel</title>
+		<head>
+			<script src="potrait.js"></script>
+			<script src="imagebehave.js"></script>
+				<style type="text/css">
+				.scroll
+				{
+				display : inline-block;
+				border : 2px solid black; 
+				width : 80px;
+				text-align : center;
+				height: 70px;
+				position : absolute;
+				margin-left : 20px;
+				margin-top : 190px;
+				}
+				.potrait
+				{
+				display : inline-block;
+				border : 2px solid black; 
+				width : 200px;
+				height : 260px;
+				margin-right : 10px;
+				margin-left : 40px;
+				position : relative;
+				}
+				#dd,#dd1,#dd2
+				{
+				visibility : hidden;
+				text-align : center;
+				size :20;
+				}
+				p
+				{
+				text-align : center;
+				}
+				#first
+				{
+				margin-left : 120px;
+				}
+				</style>
+
+		</head>
+		<body>
+		<div class="scroll">Prev</div>
+		<div class="potrait" id="first"><img style="padding:20px"></img><p></p><input id="dd"></input></div>
+		<div class="potrait"><img style="padding:20px"></img><p></p><input id="dd1"></input></div>
+		<div class="potrait"><img style="padding:20px"></img><p></p><input id="dd2"></input></div>
+		<div class="scroll">Next</div>
+		</body>
+</html>
